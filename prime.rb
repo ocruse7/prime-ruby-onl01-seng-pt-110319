@@ -1,7 +1,7 @@
 def prime?(number)
   modNum = 2
   
-  if number < 0
+  if number <= 1
     return false
   else
     while modNum < ((number/2) +1) do
